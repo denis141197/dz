@@ -1,0 +1,140 @@
+h1 {
+color: red;
+}
+
+em {
+    color: blue;
+}
+
+li {
+   font-weight: bold;
+}
+
+li em {
+    font-size: large;
+}
+
+a {
+    color: red;
+}
+
+a :hover {
+    color: green;
+}
+
+a :visited {
+    color: black;
+}
+
+/* .element {
+	font-size: 18px;
+	font-width: normal;
+	font-family: 'Roboto', sans-serif;
+
+	/* font: ??? */
+/* }
+
+.element {
+    font: 18px normal sans-serif   ;
+} */ 
+
+.flag {
+    background: white;
+    border: solid 1px;
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+
+.circle {
+    background: red;
+    position: relative;
+    height: 240px;
+    display: block; content: "";
+    width: 240px;
+    border-radius: 50%;
+    left: 170px; 
+    top: 80px;
+}
+
+
+.list-group-item {
+font-style: normal;
+font-weight: lighter; 
+list-style: none;
+margin-bottom: 10px;
+border: rgba(0,0,0,.125) solid 2px;
+padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 10px;
+margin-right: 600px;
+}
+
+.list-group-item :hover {
+background-color: #0d6efd;
+}
+.list-group-item :active {
+    background-color: #0d6efd;
+}
+.list-group-item a {
+    text-decoration: none;
+}
+
+.list-group-item a {
+    color: black;
+}
+.list-group-item :active {
+background: white;
+}
+.list-group :active {
+    background: #0d6efd;
+}
+.list-group :hover {
+    background: #0d6efd;
+}
+
+.card-img-top {
+    width: 300px; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card {
+    border: grey solid 2px;
+    border-radius: 13px;
+    height: 380px;  
+    width: 300px;
+    position: relative;
+    
+
+}
+.card-title {
+    padding-left: 10px;
+    font-size: larger;
+    color: #353334;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 15px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+.btn {
+    background: #e45d80;
+    padding: 4px 10px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: grab;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid #e45d80;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-style: caption ;
+}
